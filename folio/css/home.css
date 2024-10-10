@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+  color: #111; /* Darker text color */
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #222; /* Darker headings */
+}
+
+/* Header Styles */
+header {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #111; /* Darker header text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  font-size: 1.2rem;
+  color: #222; /* Darker links */
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* About Section */
+#about {
+  padding: 3rem 0;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+
+.bio {
+  max-width: 600px;
+}
+
+.bio h3 {
+  color: #222; /* Darker sub-heading */
+}
+
+.bio p {
+  color: #333; /* Darker bio text */
+  font-size: 1.1rem;
+}
+
+/* Experience Section */
+#experience {
+  padding: 3rem 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+#portfolio {
+  margin-top: 2rem;
+}
+
+.experience-item h3 {
+  margin: 0;
+  color: #222; /* Darker sub-heading */
+}
+
+.experience-item span {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333; /* Darker text */
+}
+
+.experience-item p {
+  color: #444; /* Darker paragraph text */
+  font-size: 1rem;
+}
+
+/* Skills Section */
+#skills {
+  padding: 3rem 0;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-item {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  border-radius: 10px;
+  color: #222; /* Darker text for skill items */
+  width: 30%;
+  text-align: center;
+}
+
+.skill-item h4 {
+  margin-bottom: 1rem;
+}
+
+/* Contact Section */
+#contact {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0.8rem 1.5rem;
+  background-color: #fff;
+  color: #66a6ff;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-links a:hover {
+  background-color: #66a6ff;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  padding: 1.5rem 0;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  color: #222; /* Darker footer text */
+  font-size: 0.9rem;
+}
